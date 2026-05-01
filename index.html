@@ -3,75 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Jagadeesh Sekaran | Senior DevSecOps & Platform Engineer</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        main {
-            padding: 1rem;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .profile-pic {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin: 0 auto;
-            display: block;
-        }
-        .social-links {
-            list-style: none;
-            padding: 0;
-            text-align: center;
-        }
-        .social-links li {
-            display: inline;
-            margin: 0 0.5rem;
-        }
-        .social-links a {
-            color: #333;
-            text-decoration: none;
-            font-size: 1.2rem;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background: #333;
-            color: #fff;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; line-height: 1.6; }
+        header { background-color: #2c3e50; color: #fff; padding: 3rem 0; text-align: center; }
+        header h1 { margin: 0; font-size: 2.8rem; letter-spacing: 1px; }
+        header p { font-size: 1.2rem; margin-top: 0.5rem; color: #1abc9c; font-weight: 500; }
+        .container { max-width: 900px; margin: 2rem auto; padding: 0 20px; }
+        section { background: #fff; padding: 30px; margin-bottom: 25px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h2 { color: #2c3e50; border-bottom: 2px solid #1abc9c; padding-bottom: 8px; margin-top: 0; }
+        h3 { color: #34495e; margin-bottom: 5px; font-size: 1.3rem; }
+        .company { font-weight: bold; color: #7f8c8d; font-size: 1.1rem; }
+        .date { color: #95a5a6; font-size: 0.95rem; font-style: italic; margin-bottom: 15px; display: block; }
+        .skills { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px; }
+        .skill-tag { background: #ecf0f1; padding: 8px 14px; border-radius: 20px; font-size: 0.9rem; font-weight: 600; color: #34495e; border: 1px solid #bdc3c7; }
+        .social-links { margin-top: 1.5rem; }
+        .social-links a { color: #fff; text-decoration: none; margin: 0 10px; padding: 10px 20px; border: 1px solid #fff; border-radius: 25px; transition: 0.3s; font-size: 0.9rem; }
+        .social-links a:hover { background: #1abc9c; border-color: #1abc9c; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        .cert-list { list-style-type: square; }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Personal Website</h1>
+        <h1>Jagadeesh Sekaran</h1>
+        <p>Senior DevSecOps Engineer | Platform Engineer</p>
+        <div class="social-links">
+            <a href="https://github.com/jagasworld" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/jagadeeshsekaran/" target="_blank">LinkedIn</a>
+        </div>
     </header>
-    <main>
-        <img src="1626846997147.jpg" alt="My Profile Picture" class="profile-pic">
-        <p>Hello! I'm Jagadeesh Sekaran, a AWS Architect/Devops/GitOps/DevSecOps Lead. Welcome to my personal website. Here, you'll find information about my work, projects, and how to get in touch with me.</p>
-        <ul class="social-links">
-            <li><a href="https://www.linkedin.com/in/jagadeeshsekaran/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/jagasworld" target="_blank">GitHub</a></li>
-        <!-- <li><a href="https://twitter.com/your-username" target="_blank">Twitter</a></li> -->
-            <!-- Add more social links as needed -->
-        </ul>
-    </main>
-    <footer>
-        <p>&copy; 2024 Jagadeesh Sekaran. All rights reserved.</p>
-    </footer>
+
+    <div class="container">
+        <section id="about">
+            <h2>Professional Summary</h2>
+            <p>Senior DevSecOps & Cloud Platform Engineer with 16 years of IT experience and 8+ years specializing in building scalable, secure cloud-native platforms on GCP and AWS. Proven track record of orchestrating multi-cluster Kubernetes (GKE/EKS), implementing GitOps workflows, and automating infrastructure to accelerate delivery and strengthen compliance. Recognized for mentoring teams, driving cross-functional collaboration, and aligning DevSecOps practices with business goals to reduce risk, optimize costs, and improve reliability.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Expertise</h2>
+            <div class="skills">
+                <span class="skill-tag">GCP & AWS</span>
+                <span class="skill-tag">Kubernetes (GKE/EKS)</span>
+                <span class="skill-tag">Docker & Cloud Run</span>
+                <span class="skill-tag">Istio Service Mesh</span>
+                <span class="skill-tag">Terraform (IaC)</span>
+                <span class="skill-tag">GitLab CI/CD & Argo CD</span>
+                <span class="skill-tag">Jenkins</span>
+                <span class="skill-tag">DevSecOps (Snyk, Prisma)</span>
+                <span class="skill-tag">Binary Authorization</span>
+                <span class="skill-tag">Prometheus & Grafana</span>
+                <span class="skill-tag">Datadog</span>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            
+            <div class="job">
+                <h3>Lead DevSecOps Engineer</h3>
+                <span class="company">CAMS (Computer Age Management Services)</span>
+                <span class="date">12/2024 – Current</span>
+                <ul>
+                    <li><strong>CI/CD Transformation:</strong> Architected a standardized GitLab CI framework with reusable templates, reducing pipeline maintenance overhead by 40% and cutting build times by 30% via caching and runner auto-scaling.</li>
+                    <li><strong>GitOps Implementation:</strong> Designed a "Zero-Touch" delivery pipeline using ArgoCD for GKE and Cloud Run, enabling declarative rollouts across 3+ environments.</li>
+                    <li><strong>Cloud Security Architecture:</strong> Enforced strict security policies using Binary Authorization and Snyk integration, preventing 100% of critical vulnerabilities from reaching production.</li>
+                    <li><strong>Service Mesh Deployment:</strong> Managed a multi-cluster GKE fleet with Istio Service Mesh, configuring ingress gateways for traffic splitting and enforcing mTLS.</li>
+                    <li><strong>Infrastructure Automation:</strong> Built comprehensive Terraform modules for GCP resources (GKE, AlloyDB, Dataflow, Apigee).</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Senior DevSecOps & Cloud Engineer</h3>
+                <span class="company">Cognizant Technology Solutions</span>
+                <span class="date">08/2010 – 12/2024</span>
+                <ul>
+                    <li><strong>Multi-Cloud Kubernetes Management:</strong> Orchestrated multi-region AWS EKS clusters utilizing Helm and Argo CD for GitOps-based application delivery.</li>
+                    <li><strong>Security Integration (Shift-Left):</strong> Integrated Prisma Cloud and Snyk into Jenkins pipelines, establishing automated security gates that reduced production incidents by 60%.</li>
+                    <li><strong>Observability & Reliability:</strong> Developed unified Datadog dashboards to monitor pod health and API latency, enabling SREs to reduce MTTR by 45%.</li>
+                    <li><strong>Infrastructure Modernization:</strong> Led legacy migration to AWS using Terraform, upgrading codebase to v0.14 and reducing manual provisioning effort by 90%.</li>
+                    <li><strong>Team Leadership:</strong> Mentored junior engineers on Kubernetes and CI/CD patterns, introducing standard runbooks that reduced onboarding time by 2 weeks.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul class="cert-list">
+                <li>Google Cloud Certified - Associate Cloud Engineer (2025)</li>
+                <li>AWS Certified Solutions Architect - Associate (2026)</li>
+                <li>Certified Kubernetes Administrator (2021)</li>
+                <li>Certified Jenkins Engineer (CJE) (2020)</li>
+                <li>HashiCorp Certified Terraform Associate (2020)</li>
+                <li>ITIL Foundation Certificate in IT Service Management</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>Bachelor of Engineering (B.E.), Electronics & Communication</strong><br>
+            Rajalakshmi Engineering College, Anna University Chennai</p>
+        </section>
+    </div>
 </body>
 </html>
